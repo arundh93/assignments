@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f250b80-9ec1-49ef-b644-b9cd73453d5e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FizzBizz.java" afterPath="$PROJECT_DIR$/src/FizzBizz.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PrimeFactors.java" afterPath="$PROJECT_DIR$/src/PrimeFactors.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="IntroductoryProgrammingExercises.iws" />
@@ -480,7 +478,13 @@
       <option name="project" value="LOCAL" />
       <updated>1435748480594</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="prime factor example added">
+      <created>1436378443429</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1436378443429</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -526,7 +530,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="triangle exercise done&#10;" />
     <MESSAGE value="2 diamond codes added" />
-    <option name="LAST_COMMIT_MESSAGE" value="2 diamond codes added" />
+    <MESSAGE value="prime factor example added" />
+    <option name="LAST_COMMIT_MESSAGE" value="prime factor example added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

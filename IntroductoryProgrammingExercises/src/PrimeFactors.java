@@ -5,19 +5,23 @@ import java.util.ArrayList;
  */
 public class PrimeFactors {
     public static void main(String[] args) {
-        int i, n, k, j;
-        ArrayList primeNoList=new ArrayList();
-        ArrayList primeFactorList=new ArrayList();
+        int n;
 
         n = 30;
+        generate(n);
+    }
+
+    private static void generate(int n){
+        ArrayList primeNoList=new ArrayList();
+        ArrayList primeFactorList=new ArrayList();
         primeNoList=primeNumberGenerator(n);
-        for(i=0;i<primeNoList.size();i++){
+        for(int i=0;i<primeNoList.size();i++){
             if(n%(int)primeNoList.get(i)==0)
                 primeFactorList.add(primeNoList.get(i));
         }
         System.out.println(primeFactorList);
-    }
 
+    }
     private static ArrayList primeNumberGenerator(int number) {
         ArrayList prime=new ArrayList();
         boolean test;
